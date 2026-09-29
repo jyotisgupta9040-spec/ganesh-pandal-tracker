@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff7f0;
+  color: #333;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.header {
+  background: linear-gradient(135deg, #b71c1c, #e65100);
+  color: white;
+  text-align: center;
+  padding: 35px 20px;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 17px;
+}
+
+.container {
+  width: 92%;
+  max-width: 1400px;
+  margin: 35px auto;
+}
+
+.container > h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.pandal-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.pandal-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s;
+  text-decoration: none;
+  color: inherit;
+}
+
+.pandal-card:hover {
+  transform: translateY(-5px);
+}
+
+.image-container {
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+  background: #eee;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  font-size: 23px;
+  color: #b71c1c;
+  margin-bottom: 8px;
+}
+
+.location {
+  color: #666;
+  margin-bottom: 18px;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.info div {
+  background: #fff3e0;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.info strong {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.info span {
+  font-size: 15px;
+  color: #d84315;
+  font-weight: bold;
+}
+
+.message {
+  text-align: center;
+  margin-top: 100px;
+}
+
+@media (max-width: 900px) {
+  .pandal-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .pandal-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .header h1 {
+    font-size: 28px;
+  }
+}
+.crowd-history {
+  padding: 50px 6%;
+  background: #fff8f0;
+  text-align: center;
+}
+
+.crowd-history h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #c62828;
+}
+
+.history-subtitle {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.pandal-select {
+  margin-bottom: 30px;
+}
+
+.pandal-select label {
+  font-weight: bold;
+  margin-right: 12px;
+  font-size: 18px;
+}
+
+.pandal-select select {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background: white;
+}
+
+.history-table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.history-table th {
+  background: #c62828;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.history-table td {
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+}
+
+.history-table tr:hover {
+  background: #fff3e0;
+}
+
+.history-message {
+  text-align: center;
+  padding: 30px;
+  color: #555;
+}
+.pandal-map-section {
+  padding: 50px 6%;
+  background: #fff;
+  text-align: center;
+}
+
+.pandal-map-section h2 {
+  font-size: 36px;
+  color: #c62828;
+  margin-bottom: 10px;
+}
+
+.pandal-map-section p {
+  color: #666;
+  font-size: 17px;
+}
+
+.map-container {
+  width: 100%;
+  height: 500px;
+  margin-top: 30px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
