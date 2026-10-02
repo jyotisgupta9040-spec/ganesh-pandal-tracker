@@ -18,7 +18,7 @@ const pandals = [
   {
     name: "GSB Seva Mandal",
     location: "King's Circle, Mumbai",
-    image: "/images/gsb-seva-mandal.webp",
+    image: "/images/gsb-ganpati.webp",
     mukhDarshan: 30,
     charanDarshan: 15,
     crowd: "High Crowd",
@@ -29,7 +29,7 @@ const pandals = [
   {
     name: "Andhericha Raja",
     location: "Andheri, Mumbai",
-    image: "/images/andhericha-raja.webp",
+    image: "/images/andhericha-raja.jpg",
     mukhDarshan: 25,
     charanDarshan: 10,
     crowd: "Medium Crowd",
@@ -40,7 +40,7 @@ const pandals = [
   {
     name: "Ganesh Galli Mumbaicha Raja",
     location: "Lalbaug, Mumbai",
-    image: "/images/ganesh-galli.webp",
+    image: "/images/ganesh-galli.jpeg",
     mukhDarshan: 40,
     charanDarshan: 20,
     crowd: "High Crowd",
@@ -51,7 +51,7 @@ const pandals = [
   {
     name: "Khetwadi Ganraj",
     location: "Girgaon, Mumbai",
-    image: "/images/khetwadi-ganraj.webp",
+    image: "/images/khetwadi-ganraj.jpeg",
     mukhDarshan: 35,
     charanDarshan: 15,
     crowd: "Medium Crowd",
@@ -62,7 +62,7 @@ const pandals = [
   {
     name: "Chinchpokli Chintamani",
     location: "Chinchpokli, Mumbai",
-    image: "/images/chinchpokli-chintamani.webp",
+    image: "/images/chinchpokli-chintamani.jpeg",
     mukhDarshan: 30,
     charanDarshan: 15,
     crowd: "High Crowd",
