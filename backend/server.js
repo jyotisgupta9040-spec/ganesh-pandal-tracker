@@ -16,6 +16,7 @@ app.use("/api/pandals", pandalRoutes);
 mongoose.connect(process.env.MONGO_URI)
   .then(() => {
     console.log("MongoDB connected successfully");
+    console.log("Database:", mongoose.connection.name);
 
     app.listen(5000, () => {
       console.log("Server running on port 5000");
